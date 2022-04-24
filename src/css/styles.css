@@ -1,0 +1,52 @@
+* {
+  border: 2px solid red;
+}
+
+body {
+  display: flex;
+}
+
+.page-left {
+  background-image: url("../../links/img/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 35vw;
+}
+
+.page-right {
+  width: 65vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.logo-container {
+  position: relative;
+  background-color: black;
+  opacity: .6;
+  display: flex;
+  width: auto;
+  height: 15vh;
+  justify-content: center;
+  top: 25%;
+  align-items: center;
+}
+
+.logo-text {
+  position: relative;
+  color: white;
+  opacity: 1;
+  font-size: 4vw;
+}
+
+.logo-img {
+  position: relative;
+  width: auto;
+  height: clamp(4vw, 75%, 15vw);
+  opacity: 1;
+}
